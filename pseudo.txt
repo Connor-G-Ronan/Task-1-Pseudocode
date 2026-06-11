@@ -1,0 +1,56 @@
+Pseudocode Task
+
+Example 1: An algorithm that asks a user to enter a positive number repeatedly until the user enters a zero value, then determines and outputs the largest of the numbers that were entered.
+
+set largest to zero
+request a positive number from the user
+while number is not equal to zero
+    if number is greater than largest
+        set largest to number
+    end if
+    request another positive number from the user
+end while
+if largest is not equal to zero
+    print "The largest number is: ", largest
+else
+    print "No positive numbers were entered"
+end if
+
+Example 2: An algorithm that requests a user to input their name and then stores their name in a variable called first_name. Subsequently, the algorithm should print out first_name along with the phrase “Hello, World”.
+
+request user to input their name
+store input into variable called first_name
+print first_name
+print "Hello, World"
+
+Example 3: An algorithm that reads an arbitrary number of integers and then returns their arithmetic average.
+
+set total to zero
+set count to zero
+request an integer from the user
+while integer is not equal to "stop"
+    add integer to total
+    add one to count
+    request another integer from the user
+end while
+if count is greater than zero
+    set average to total divided by count
+    print "The arithmetic average is: ", average
+else 
+    print "No numbers were entered"
+end if
+
+Example 4: An algorithm that reads a grocery list and prints out the products  (in alphabetical order) that are still left to buy
+
+create an empty list called grocery_list
+request a grocery item from the user
+while user has more items to add
+    add item to grocery_list
+    request next grocery item from the user
+end while
+sort grocery_list in alphabetical order
+print "Products still left to buy:"
+for each product in grocery_list
+    print product
+end for
+
