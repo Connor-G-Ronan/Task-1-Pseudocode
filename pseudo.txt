@@ -54,3 +54,15 @@ for each product in grocery_list
     print product
 end for
 
+
+Example 5: Algorithm for the flowchart 
+
+request X and Y user
+use X and Y to calculate S,A,P
+	calculate S = X + Y
+	calculate A = S/2
+	calculate P = X * Y
+
+print S, A, P
+
+
